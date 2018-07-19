@@ -8,7 +8,7 @@
       </p>
       <a class="button is-primary is-small is-outlined" @click="submitEvent(inputEntry)">Submit</a>
     </div>
-    <p style="color: red;font-size:13px;" v-if="error">You must type something first</p>
+    <p style="color: red;font-size:13px" v-if="error">You must type something first</p>
   </div>
 </template>
 
@@ -33,7 +33,7 @@ export default {
       
       store.submitEvent(eventDetails);
       this.inputEntry = '';
-      this.error='false';
+      this.error=false;
     }
   }
 }
