@@ -2,21 +2,18 @@
   <div id="app">
     <CalendarWeek />
     <CalendarEntry />
-    <CustomEvents />
   </div>
 </template>
 
 <script>
 import CalendarWeek from './components/CalendarWeek.vue';
 import CalendarEntry from './components/CalendarEntry.vue';
-import CustomEvents from './components/CustomEvents.vue';
 
 export default {
   name: 'App',
   components: {
     CalendarWeek,
     CalendarEntry,
-    CustomEvents
   }
 }
 </script>
